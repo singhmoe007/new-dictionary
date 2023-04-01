@@ -1,0 +1,147 @@
+#body {
+    margin: 0;
+    font-size: 18px;
+}
+
+#nav {
+    text-align: center;
+}
+
+#nav ul {
+    display: flex;
+     
+}
+
+#nav ul li {
+    list-style: none;
+    margin: 5px;
+    
+}
+
+#nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+header {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/texture.jpg");
+    font-family: 'Space Grotesk', sans-serif;
+    background-position: 50% 50%;
+    background-size: cover;
+    color: aliceblue; 
+ 
+    margin: 10px auto;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    text-transform: capitalize;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 720px) {
+    header h1 {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+    
+    header h2 {
+        font-size: 1rem;
+        text-transform: capitalize;
+    }
+    
+    #nav ul {
+        display: flex;
+ 
+    }
+
+    #nav ul li a {
+        color:black;
+        text-decoration: none;
+        font-size: 1rem;
+
+    }
+}
+
+main {
+    background-color: rgb(94, 100, 105);
+
+    font-family: 'Space Grotesk', sans-serif;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+#words {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#word {
+    margin: 20px auto;
+    
+}
+
+
+.output { 
+    text-align: left;
+    max-width: 1080px;
+    margin: 20px auto;
+}
+
+#submit {
+     
+}
+
+#submit:hover {
+    box-shadow:  0 0 2px white;
+}
+
+#submit:active {
+    box-shadow:  0 0 0;
+}
+
+#output {
+    max-width: 500px;
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
+
+.output span {
+    word-spacing: 1px;
+    line-height: 1.25;
+    font-size: 1rem;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 720px) {
+    #output {
+        max-width: 300px;
+        margin: 10px auto;
+        padding-bottom: 10px;
+    }
+    
+    .output span {
+        word-spacing: 1px;
+        line-height: 1.25;
+        font-size: 1rem;
+        color: white;
+        
+    }
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
